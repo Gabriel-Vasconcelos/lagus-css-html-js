@@ -1,11 +1,12 @@
 import { ImageItem } from "../commons/ImageItem"
+import { TitleComponent } from "../commons/TitleComponent"
 
 export const SectionImageList = () => {
     return(
         <section>
-            <h1>
+            <TitleComponent>
                 Image List Component
-            </h1>
+            </TitleComponent>
 
             <ImageItem titleImage="Atom in the hand of a robot" urlImage="/images/PicAtom1.svg" />
         </section>

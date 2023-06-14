@@ -9,7 +9,7 @@ const Home = () => {
         <title>Lagus_</title>
       </Head>
 
-      <main>
+      <main className="px-4">
           <SectionPresentationTest />
           
           <SectionImageList />
