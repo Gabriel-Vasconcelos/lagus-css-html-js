@@ -1,3 +1,5 @@
+import { ImageItem } from "../commons/ImageItem"
+
 export const SectionImageList = () => {
     return(
         <section>
@@ -5,7 +7,7 @@ export const SectionImageList = () => {
                 Image List Component
             </h1>
 
-            {/* Fazer um componente para receber as imagens */}
+            <ImageItem titleImage="Atom in the hand of a robot" urlImage="/images/PicAtom1.svg" />
         </section>
     )
 }
