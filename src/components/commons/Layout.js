@@ -8,7 +8,7 @@ const roboto = Roboto({
 
 export const Layout = ( {children}) => {
     return (
-        <div className={ `${roboto.className} bg-background-primary`}>
+        <div className={ `${roboto.className} bg-background-primary pb-8 `}>
             <Header />
 
             {children}
