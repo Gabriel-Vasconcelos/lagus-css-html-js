@@ -8,7 +8,23 @@ export const SectionImageList = () => {
                 Image List Component
             </TitleComponent>
 
-            <ImageItem titleImage="Atom in the hand of a robot" urlImage="/images/PicAtom1.svg" />
+            <div className="mt-8">
+                <ImageItem 
+                    titleImage="Atom in the hand of a robot" 
+                    urlImage="/images/PicAtom1.svg" 
+                />
+
+                <ImageItem 
+                    titleImage="Atom in the hand of a robot" 
+                    urlImage="/images/PicHandCode1.svg" 
+                />
+
+                <ImageItem 
+                    titleImage="Atom in the hand of a robot" 
+                    urlImage="/images/PicWomanCode1.svg" 
+                />
+
+            </div>
         </section>
     )
 }
